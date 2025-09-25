@@ -2,15 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background-color: #fff8f0;
+    background-color: #fffaf0;
 }
 
 header {
-    background: #ff7043;
+    background: linear-gradient(90deg, #FF7043, #FFC107);
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2em;
 }
 
 .hero img {
@@ -23,7 +31,7 @@ section {
 }
 
 h2 {
-    color: #ff7043;
+    color: #FF7043;
 }
 
 .product-grid {
@@ -34,10 +42,11 @@ h2 {
 
 .product-card {
     background: white;
-    padding: 10px;
+    padding: 15px;
     border-radius: 8px;
     width: 300px;
     box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 .product-card img {
@@ -45,11 +54,21 @@ h2 {
     border-radius: 5px;
 }
 
+.product-card h3 {
+    color: #FF7043;
+}
+
+.product-card p {
+    font-size: 1em;
+    color: #555;
+}
+
 .product-card button {
-    background: #ff7043;
+    background: #FF7043;
     color: white;
     border: none;
     padding: 10px;
+    margin-top: 10px;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -58,9 +77,21 @@ h2 {
     background: #e64a19;
 }
 
+#contact {
+    background: #FFC107;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact a {
+    color: white;
+    text-decoration: underline;
+}
+
 footer {
     text-align: center;
     padding: 10px;
-    background: #ff7043;
+    background: #FF7043;
     color: white;
 }
